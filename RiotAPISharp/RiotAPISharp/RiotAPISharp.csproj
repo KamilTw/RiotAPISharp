@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Endpoints\Implementations\" />
+    <Folder Include="Endpoints\Interfaces\" />
     <Folder Include="Http\" />
     <Folder Include="Utilities\Interfaces\" />
   </ItemGroup>
