@@ -11,6 +11,7 @@
     <Folder Include="Model\AccountV1\" />
     <Folder Include="Model\ChampionMasteryV4\" />
     <Folder Include="Model\ChampionV3\" />
+    <Folder Include="Model\ClashV1\" />
     <Folder Include="Utilities\Interfaces\" />
   </ItemGroup>
 
