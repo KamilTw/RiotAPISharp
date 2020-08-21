@@ -15,6 +15,7 @@
     <Folder Include="Model\LeagueV4\" />
     <Folder Include="Model\LOLStatusV3\" />
     <Folder Include="Model\LORRankedV1\" />
+    <Folder Include="Model\MatchV4\" />
     <Folder Include="Utilities\Interfaces\" />
   </ItemGroup>
 
