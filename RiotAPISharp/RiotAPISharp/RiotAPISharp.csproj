@@ -13,6 +13,7 @@
     <Folder Include="Model\ChampionV3\" />
     <Folder Include="Model\ClashV1\" />
     <Folder Include="Model\LeagueV4\" />
+    <Folder Include="Model\LOLStatusV3\" />
     <Folder Include="Utilities\Interfaces\" />
   </ItemGroup>
 
