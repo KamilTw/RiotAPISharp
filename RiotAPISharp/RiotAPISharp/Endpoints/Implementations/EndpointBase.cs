@@ -15,6 +15,12 @@ namespace RiotAPISharp.Endpoints.Implementations
             Deserializer = new Deserializer();
         }
 
+        protected EndpointBase()
+        {
+            Requester = new KeylessRequester();
+            Deserializer = new Deserializer();
+        }
+
         protected T GetObjectOfType<T>(string url)
         {
             string responseBody = Requester.CreateGetRequest(url).Result;
