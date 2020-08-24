@@ -16,6 +16,7 @@
     <Folder Include="Model\LOLStatusV3\" />
     <Folder Include="Model\LORRankedV1\" />
     <Folder Include="Model\MatchV4\" />
+    <Folder Include="Model\DataDragonChampions\" />
     <Folder Include="Model\TFTMatchV1\" />
     <Folder Include="Model\SummonerV4\" />
     <Folder Include="Model\SpectatorV4\" />
