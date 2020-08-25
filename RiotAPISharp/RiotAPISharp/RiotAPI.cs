@@ -18,7 +18,8 @@ namespace RiotAPISharp
         public ISummonerV4 SummonerV4 { get; private set; }
         public ITFTLeagueV1 TFTLeagueV1 { get; private set; }
         public ITFTMatchV1 TFTMatchV1 { get; private set; }
-        public ITFTSummonerV1 TFTSummonerV1 { get; private set; }      
+        public ITFTSummonerV1 TFTSummonerV1 { get; private set; }
+        public IDataDragonChampions DataDragonChampions { get; private set; }
 
         public RiotAPI(string key)
         {
@@ -36,6 +37,7 @@ namespace RiotAPISharp
             TFTLeagueV1 = new TFTLeagueV1(key);
             TFTMatchV1 = new TFTMatchV1(key);
             TFTSummonerV1 = new TFTSummonerV1(key);
+            DataDragonChampions = new DataDragonChampions();
         }
     }
 }
